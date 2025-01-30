@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>M7 L3 - HTML FORMS assignment</h1>
+
+    <h2>Question 2:</h2>
+
+    <form action="/submit" method="post">
+
+<!-- Task 1:, Creating a Selection Experience-->
+
+    <label>Please select your favorite Programming Language:</label>
+    <input type="radio" id="python" name="language" value="python" aria-labelledby="label-python">
+    <label for="python">Python</label>
+
+    <input type="radio" id="html" name="language" value="html" aria-labelledby="label-html">
+    <label for="html">HTML</label>
+
+    <input type="radio" id="CSS" name="language" value="CSS" aria-labelledby="label-css">
+    <label for="language">CSS</label>
+
+    <input type="radio" id="Javascript" name="language" value="Javascript" aria-labelledby="label-javascript">
+    <label for="Javascript">Javascript</label>
+
+        <br><br><br>
+
+    <label>Please enter your experience level:</label>
+    <input type="radio" id="Beginner" name="Experience" value="Beginner" aria-labelledby="label-beginner">
+    <label for="Beginner">Beginner</label>
+    <input type="radio" id="Intermediate" name="Experience" value="Intermediate" aria-labelledby="label-intermediate">
+    <label for="Intermediate">Intermediate</label>
+    <input type="radio" id="Advanced" name="Experience" value="Advanced" aria-labelledby="label-advanced">
+    <label for="Advanced">Advanced</label>
+
+
+    <br><br><br>
+
+    <label>Please enter your Preferred Development Platform:</label>
+    <input type="checkbox" id="Web" name="platform" value="Web" aria-labelledby="label-web">
+    <label for="Web">Web</label>
+    <input type="checkbox" id="Mobile" name="platform" value="Mobile" aria-labelledby="label-mobile">
+    <label for="Mobile">Mobile</label>
+    <input type="checkbox" id="Desktop" name="platform" value="Desktop" aria-labelledby="label-desktop">
+    <label for="Desktop">Desktop</label>
+
+
+    <!--Task 2, increased accessibility by adding aria-labelledby="##" tags to my labels-->
+
+
+    </form>
+</body>
+</html>

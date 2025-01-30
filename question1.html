@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>M7 L3 - HTML FORMS assignment, Question 1:</h1>
+
+    <form action="/submit" method="post">
+        <!-- task 1. email -->
+        <label for="user-email">Email:</label>
+        <input type="email" id="user-email" name="user-email" placeholder="Enter your Email" required>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br><br>
+
+        <!-- task 2. number -->
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" step="1" required>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br><br>
+
+        <!-- task 3. enter a date -->
+        <label for="date">Enter a date:</label>
+        <input type="date" id="date" name="date" required>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br><br>
+
+        <!-- task 4. range of user experience -->
+        <label for="rating">Please rate your user experience, 1-10 with 10 being the best:</label>
+        <input type="range" id="rating" name="rating" min="1" max="10" value="5" step="1">
+        <p>Current Rating: 5</p>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br><br>
+
+        <!-- task 5. capturing color input -->
+        <label for="color-input">Please enter your favorite color:</label>
+        <input type="text" id="color-input" name="color-input" value="Blue" placeholder="Enter your favorite color" required>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+        <br><br><br>
+    </form>
+</body>
+</html>
